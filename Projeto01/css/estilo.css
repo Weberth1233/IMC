@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(155, 212, 219);
+    font-family: 'Courier New', Courier, monospace;
+}
+div#title{
+    line-height:10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+section div#content{
+    width: 500px;
+    height: auto;
+    background-color: rgb(53, 124, 172);
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-30%);
+    color: #fff;
+    box-shadow: 1px 2px 2px 1px #000;
+}
+
+section div#content div#botao{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section div#content input[type="button"],input[type="reset"]{
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(20, 4, 4);
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+}
