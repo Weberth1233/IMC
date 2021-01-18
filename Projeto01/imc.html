@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMC</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    </head>
+    <body>
+        <section>
+            <form>
+                <div id="content">
+                    <div id="title">
+                        <h1>Calculando o IMC</h1>
+                    </div>
+                    <p>
+                     Peso:<input type="number" name="txtpeso" id="txtpeso">
+                     Altura:<input type="number" name="txtaltura" id="txtaltura">
+                    </p>
+                    <p>
+                    <input type="radio" id="mulher" name="sexo" value="Mulher" checked>
+                    <label for="Mulher">Mulher</label>
+                    <input type="radio" id="homem" name="sexo" value="Homem">
+                    <label for="Homem">Homem</label>
+                    </p>
+                    <div id="botao">
+                        <input type="button" value="Calcular IMC" onclick="imc()">
+                        <input type="reset"  name="b2" value="Limpar">
+                    </div>
+                    <div id="resultado">
+                        <p>Resultado aparecerá quando os dados acima forem inseridos..</p>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            &copy;Desenvolvido por Weberth Erik
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
