@@ -18,7 +18,7 @@ function imc(){
     }
     var paragrafo = document.createElement('p');
     var texto  = document.createTextNode(`Sua altura é de ${altura.value} M e seu peso é de ${peso.value}KG o seu 
-         é um(a) ${genero} seu IMC é de ${imc.toFixed(1)}`);
+         sexo é ${genero} seu IMC é de ${imc.toFixed(1)}`);
     paragrafo.appendChild(texto);
 
     if(imc < 18.5){
